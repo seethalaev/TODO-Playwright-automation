@@ -1,0 +1,23 @@
+{
+  "name": "todo-playwright-automation",
+  "version": "1.0.0",
+  "description": "A playwright automation project to test a TOdo list web application. The application can perform all the CURD operations.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seethalaev/TODO-Playwright-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/seethalaev/TODO-Playwright-automation/issues"
+  },
+  "homepage": "https://github.com/seethalaev/TODO-Playwright-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.1"
+  }
+}
