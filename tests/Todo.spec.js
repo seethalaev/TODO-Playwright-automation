@@ -19,6 +19,7 @@ test('test to do application @sanity', async ({ page }) => {
   await page.getByRole('link', { name: 'Active' }).click();
   await page.getByRole('link', { name: 'Completed' }).click();
   await page.getByRole('link', { name: 'All' }).click();
+  await expect(page.locator('.todo-list li')).toHaveCount(1)
   
   await expect(page.getByRole('listitem').filter({ hasText: 'coding' }).getByTestId('todo-item-toggle')).toBeVisible();
 });
